@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Source+Serif+4:wght@400;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
+
+  --color-paper: #e9eef5;
+  --color-ink: #12203a;
+  --color-highlight: #ffd43b;
+  --color-danger: #c92a2a;
+
+  --shadow-hard: 4px 4px 0 0 #12203a;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
